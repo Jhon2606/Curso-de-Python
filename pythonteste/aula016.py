@@ -1,7 +1,7 @@
 lanche = ('Haburguer', 'Suco',  'Pizza', 'Pudim')
 #Tuplas são imutáveis
 for c in lanche:
-    print(f'Eu vou comer{c}')
+    print(f'Eu vou comer {c}')
 for c in range(0, len(lanche)):
     print(lanche[c])
 for pos, c in enumerate(lanche):
